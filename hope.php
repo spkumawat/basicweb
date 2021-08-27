@@ -19,7 +19,7 @@ $sql_query = "INSERT INTO  state(first_name, last_name) VALUES ('$first_name' , 
 
 if (mysqli_query($conn, $sql_query))
 {
-  echo "New Details Entry inserted successfully !";
+  echo "  Details Entry inserted successfully !";
 }
 else
 {
